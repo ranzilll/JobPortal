@@ -1,0 +1,120 @@
+/* AdminPanel.css */
+
+/* General Layout */
+.admin-panel {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+.add-job-form {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.add-job-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-job-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.add-job-form button:hover {
+  background-color: #45a049;
+}
+
+/* Job List Styling */
+.job-list {
+  padding: 0;
+  list-style: none;
+}
+
+.job-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.job-item h4 {
+  margin: 0 0 5px;
+  color: #333;
+}
+
+.job-item p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.job-item button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.job-item button:hover {
+  opacity: 0.8;
+}
+
+button.edit-btn {
+  background-color: #2196F3;
+  color: white;
+}
+
+button.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .add-job-form {
+    width: 100%;
+  }
+
+  .job-item {
+    margin: 10px;
+  }
+}
+
+/* src/components/AdminPanel.css */
+.logout{
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.logout{
+  background-color: #0056b3;
+}
+
+
